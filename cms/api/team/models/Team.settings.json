@@ -1,0 +1,21 @@
+{
+  "connection": "default",
+  "collectionName": "teams",
+  "info": {
+    "name": "team",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "team_members_ids": {
+      "type": "json"
+    },
+    "boss_id": {
+      "type": "string"
+    }
+  }
+}
